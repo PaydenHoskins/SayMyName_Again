@@ -10,6 +10,8 @@ Option Strict On
 Module SayMyNameAgain
 
     Sub Main()
+        Dim YourName As String
+
 
     End Sub
 
