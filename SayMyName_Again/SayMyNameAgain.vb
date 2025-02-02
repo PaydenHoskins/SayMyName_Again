@@ -18,13 +18,13 @@ Module SayMyNameAgain
             If YourName = "Emily" Or YourName = "Joe" Then
                 Console.WriteLine($"Hello, You must be {YourName}!")
                 Console.WriteLine()
-            ElseIf YourName = "Payden" Or YourName = "Tim" Then
+            ElseIf YourName = "Payden" Then
                 Console.WriteLine($"OH MY, You are the one they speak of" &
                                   $" the great and mighty {YourName}!")
                 Console.WriteLine()
             ElseIf YourName IsNot "Emily" Or YourName IsNot "Joe" Then
                 Console.WriteLine()
-            ElseIf YourName IsNot "Payden" Or YourName IsNot "Tim" Then
+            ElseIf YourName IsNot "Payden" Then
                 Console.WriteLine()
             End If
 
