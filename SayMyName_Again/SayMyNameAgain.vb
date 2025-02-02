@@ -29,7 +29,7 @@ Module SayMyNameAgain
             End If
 
             Console.WriteLine("If you would like to end" &
-            " type {Leave} in the name box.")
+            " type 'Leave' in the name box.")
             Console.WriteLine()
         Loop Until YourName = "Leave"
     End Sub
