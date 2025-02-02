@@ -13,12 +13,14 @@ Module SayMyNameAgain
         Dim YourName As String
 
         Do
-            Console.Write("Please insert your name HERE:")
+            Console.Write("Please insert your name HERE: ")
             YourName = Console.ReadLine()
             If YourName = "Emily" Or YourName = "Joe" Then
+                Console.WriteLine()
                 Console.WriteLine($"Hello, You must be {YourName}!")
                 Console.WriteLine()
             ElseIf YourName = "Payden" Then
+                Console.WriteLine()
                 Console.WriteLine($"OH MY, You are the one they speak of" &
                                   $" the great and mighty {YourName}!")
                 Console.WriteLine()
